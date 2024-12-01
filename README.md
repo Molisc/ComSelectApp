@@ -9,7 +9,8 @@ This is a PyQt6-based GUI application for selecting COM ports and setting the ba
 in Python projects that require serial communication. The tool allows dynamic detection of available COM ports, error
 handling for invalid input, and a clean modern interface.
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](docs\app_screenshot.png)
+
 
 ---
 
