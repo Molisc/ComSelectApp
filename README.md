@@ -1,4 +1,4 @@
-```markdown
+
 # COM Port Selection Tool
 
 This is a PyQt6-based GUI library for selecting COM ports and setting the baud rate. It is designed for ease of use
