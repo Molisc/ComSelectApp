@@ -1,5 +1,5 @@
 from PyQt6.QtWidgets import QApplication, QMessageBox
-from portSelect import PortSelectionWindow
+from comsel.portSelect import PortSelectionWindow  # Импортируем из пакета comsel
 import sys
 
 app = QApplication(sys.argv)

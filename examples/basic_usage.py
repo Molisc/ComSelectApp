@@ -1,4 +1,4 @@
-from portSelect import PortSelectionWindow
+from comsel.portSelect import PortSelectionWindow  # Импортируем из пакета comsel
 
 port, baudrate = PortSelectionWindow.get_port_and_baudrate()
 if port and baudrate:

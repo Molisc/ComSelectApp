@@ -1,5 +1,5 @@
 import serial
-from portSelect import PortSelectionWindow
+from comsel.portSelect import PortSelectionWindow  # Импортируем из пакета comsel
 
 def connect_and_read(port, baudrate):
     try:
