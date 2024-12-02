@@ -5,6 +5,7 @@ from PyQt6.QtWidgets import (
 )
 import serial.tools.list_ports
 import sys, re
+from importlib.resources import files
 
 
 class PortSelectionWindow(QDialog):
@@ -13,7 +14,8 @@ class PortSelectionWindow(QDialog):
         self.setWindowTitle("Выбор COM порта и скорости передачи данных")
 
         # Устанавливаем иконку окна
-        self.setWindowIcon(QIcon("icons/icon.ico"))
+        icon_path = files("comsel.icons").joinpath("icon.ico")
+        self.setWindowIcon(QIcon(str(icon_path)))
 
         # Применяем бело-голубой стиль
         self.setStyleSheet("""

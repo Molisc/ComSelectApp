@@ -1,6 +1,25 @@
-# Ignore virtual environments
+# Виртуальное окружение
 .venv/
+env/
+venv/
 
-# Ignore system files
-*.pyc
+# Файлы сборки
+dist/
+build/
+*.egg-info/
+
+# Конфигурационные и системные файлы
 __pycache__/
+*.pyc
+*.pyo
+
+# Лог-файлы и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE-специфические файлы
+.idea/
+.vscode/
+*.iml
